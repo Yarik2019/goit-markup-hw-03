@@ -75,6 +75,9 @@ img {
 }
 
 /* header */
+.header-section {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-section .container {
   display: flex;
 }
@@ -171,6 +174,8 @@ address {
   background-color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   min-width: 169px;
+  height: 56px;
+  border: none;
   padding: 16px 32px;
   display: block;
   margin-left: auto;
@@ -244,8 +249,8 @@ address {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
 }
-.team-img {
-  margin-bottom: 32px;
+.team-block-info {
+  padding: 32px 16px;
 }
 .team-name {
   font-weight: 500;
@@ -258,7 +263,6 @@ address {
 }
 .team-profesion {
   text-align: center;
-  margin-bottom: 32px;
 }
 
 /* Our Portfolio */
@@ -270,6 +274,7 @@ address {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-list {
   row-gap: 48px;
